@@ -9,7 +9,7 @@ class EmailSignInErrorModal extends React.Component {
         {...this.props}
         closeAction={hideEmailSignInErrorModal}
         containerClass="email-sign-in-error-modal"
-        title="Sign In Error"
+        title="Problem ved innlogging"
         errorAddr={["emailSignIn", "errors"]} />
     );
   }
