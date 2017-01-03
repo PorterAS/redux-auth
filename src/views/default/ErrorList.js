@@ -20,7 +20,6 @@ class ErrorList extends React.Component {
 
       return (
         <div className="has-error">
-          <p>Please correct the following {errorWord}:</p>
           {this.props.errors.map((err, i) => {
             return (
               <p
