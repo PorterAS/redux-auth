@@ -10,11 +10,11 @@ class EmailSignUpSuccessModal extends React.Component {
         containerClass="email-sign-up-success-modal"
         show={this.props.show}
         closeAction={hideEmailSignUpSuccessModal}
-        title="Kontoen din er etablert">
+        title="Registreringen var vellykket">
         <p>
           <span>En epost bekreftelse er sendt til</span>
           <span> {this.props.auth.getIn(["ui", "emailSignUpAddress"])}.</span>
-          <span> Følge instruksjonene i eposten for å fullføre registreringen.</span>
+          <span> Følge instruksjonene i denne for å bekrefte kontoen.</span>
         </p>
       </Modal>
     );
