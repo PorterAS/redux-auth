@@ -7,7 +7,7 @@ class EmailSignUpErrorModal extends React.Component {
     return (
       <Modal
         {...this.props}
-        title="Sign Up Error"
+        title="Problem ved registrering av konto"
         containerClass="email-sign-up-form-error-modal"
         closeAction={hideEmailSignUpErrorModal}
         errorAddr={["emailSignUp", "errors", "full_messages"]} />
