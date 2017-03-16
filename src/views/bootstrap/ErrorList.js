@@ -37,8 +37,7 @@ class ErrorList extends React.Component {
     } else {
       return (
         <p>
-          <Glyphicon glyph="exclamation-sign" /> There was an error processing
-          this form. Please check each field and try again.
+          <Glyphicon glyph="exclamation-sign" /> Vi kunne ikke behandle dataene. Vennligst sjekk utfylling av feltene og prøv deretter igjen.
         </p>
       );
     }
