@@ -10,10 +10,9 @@ class OAuthSignInErrorModal extends React.Component {
         show={this.props.show}
         containerClass="oauth-sign-in-error-modal"
         closeAction={hideOAuthSignInErrorModal}
-        title="OAuth Sign In Error">
+        title="OAuth Problem ved innlogging">
         <p>
-          <Glyphicon glyph="exclamation-sign" /> There was an error
-          authenticating your account. Please try again.
+          <Glyphicon glyph="exclamation-sign" /> Feil brukernavn eller passord. Vennligst prøv igjen.
         </p>
       </Modal>
     );

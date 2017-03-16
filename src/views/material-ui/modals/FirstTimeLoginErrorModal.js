@@ -9,8 +9,8 @@ class FirstTimeLoginErrorModal extends React.Component {
         {...this.props}
         containerClass="first-time-login-error-modal"
         closeAction={hideFirstTimeLoginErrorModal}
-        title="Confirmation Error">
-        <p>There was a problem confirming your account. Please try again.</p>
+        title="Feil ved innlogging">
+        <p>Konto kunne ikke bekreftes. Vennligst prøv igjen.</p>
       </Modal>
     );
   }

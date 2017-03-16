@@ -64,7 +64,7 @@ class EmailSignInForm extends React.Component {
                {...this.props.inputProps.email} />
 
         <Input type="password"
-               label="Password"
+               label="Passord"
                className="email-sign-in-password"
                disabled={disabled}
                value={this.props.auth.getIn(["emailSignIn", this.getEndpoint(), "form", "password"])}

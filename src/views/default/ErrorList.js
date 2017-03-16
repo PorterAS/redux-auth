@@ -43,8 +43,7 @@ class ErrorList extends React.Component {
             left: 0,
             top: 2}}>
             {"✗"}
-          </i> There was an error processing this form. Please check each field
-          and try again.
+          </i> Vi kunne ikke behandle dataene. Vennligst sjekk utfylling av feltene og prøv deretter igjen.
         </p>
       );
     }

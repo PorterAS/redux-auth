@@ -11,7 +11,7 @@ class OAuthSignInSuccessModal extends React.Component {
         containerClass="oauth-sign-in-success-modal"
         title="Welcome"
         closeAction={hideOAuthSignInSuccessModal}>
-        <p>You are now signed in via {this.props.auth.getIn(["user", "attributes", "provider"])}.</p>
+        <p>Du er nå logget inn som {this.props.auth.getIn(["user", "attributes", "provider"])}.</p>
       </Modal>
     );
   }

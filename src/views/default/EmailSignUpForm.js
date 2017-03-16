@@ -67,7 +67,7 @@ class EmailSignUpForm extends React.Component {
                {...this.props.inputProps.email} />
 
         <Input type="password"
-               label="Password"
+               label="Passord"
                className="email-sign-up-password"
                disabled={disabled}
                value={this.props.auth.getIn(["emailSignUp", this.getEndpoint(), "form", "password"])}
@@ -76,7 +76,7 @@ class EmailSignUpForm extends React.Component {
                {...this.props.inputProps.password} />
 
         <Input type="password"
-               label="Password Confirmation"
+               label="Passord Confirmation"
                className="email-sign-up-password-confirmation"
                disabled={disabled}
                value={this.props.auth.getIn(["emailSignUp", this.getEndpoint(), "form", "password_confirmation"])}

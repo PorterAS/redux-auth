@@ -50,8 +50,7 @@ class ErrorList extends React.Component {
               position: "absolute",
               left: 0,
               top: 3}}
-            color={Colors.red500} /> There was an error processing this form.
-          Please check each field and try again.
+            color={Colors.red500} /> Vi kunne ikke behandle dataene. Vennligst sjekk utfylling av feltene og prøv deretter igjen.
         </p>
       );
     }

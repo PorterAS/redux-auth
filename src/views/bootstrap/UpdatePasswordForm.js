@@ -52,8 +52,8 @@ class UpdatePasswordForm extends React.Component {
       <form className="redux-auth update-password-form clearfix"
             onSubmit={this.handleSubmit.bind(this)}>
         <Input type="password"
-               label="Password"
-               placeholder="Password"
+               label="Passord"
+               placeholder="Passord"
                disabled={disabled}
                groupClassName="update-password-password"
                value={this.props.auth.getIn(["updatePassword", endpoint, "form", "password"])}
@@ -62,8 +62,8 @@ class UpdatePasswordForm extends React.Component {
                {...this.props.inputProps.password} />
 
         <Input type="password"
-               label="Password Confirmation"
-               placeholder="Password Confirmation"
+               label="Passord Confirmation"
+               placeholder="Passord Confirmation"
                disabled={disabled}
                groupClassName="update-password-password-confirmation"
                value={this.props.auth.getIn(["updatePassword", endpoint, "form", "password_confirmation"])}

@@ -74,12 +74,12 @@ class PasswordResetSuccessModal extends React.Component {
               onClick={this.handleSubmit.bind(this)}
               {...this.props.inputProps.submit} />
           ]}
-          title="Reset Your Password">
+          title="Nullstill Passord">
           <form>
             <Input
               type="password"
-              label="Password"
-              placeholder="Password"
+              label="Passord"
+              placeholder="Passord"
               disabled={loading}
               className="password-reset-success-modal-password"
               value={this.props.auth.getIn(["updatePasswordModal", endpoint, "form", "password"])}
@@ -89,8 +89,8 @@ class PasswordResetSuccessModal extends React.Component {
 
             <Input
               type="password"
-              label="Password Confirmation"
-              placeholder="Password Confirmation"
+              label="Passord Confirmation"
+              placeholder="Passord Confirmation"
               disabled={loading}
               className="password-reset-success-modal-password-confirmation"
               value={this.props.auth.getIn(["updatePasswordModal", endpoint, "form", "password_confirmation"])}

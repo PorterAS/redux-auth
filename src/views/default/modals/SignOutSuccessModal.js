@@ -8,9 +8,9 @@ class SignOutSuccessModal extends React.Component {
       <Modal
         show={this.props.show}
         containerClass="sign-out-success-modal"
-        title="Goodbye!"
+        title="Du er nå utlogget"
         closeAction={hideSignOutSuccessModal}>
-        <p>You have been successfully signed out.</p>
+        <p>Velkommen tilbake.</p>
       </Modal>
     );
   }

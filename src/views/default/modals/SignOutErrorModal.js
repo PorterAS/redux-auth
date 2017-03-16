@@ -9,11 +9,9 @@ class SignOutErrorModal extends React.Component {
         show={this.props.show}
         containerClass="sign-out-error-modal"
         closeAction={hideSignOutErrorModal}
-        title="Sign Out Error">
+        title="Problem ved utlogging">
         <p>
-          The server encountered an error while trying to sign you out. Your
-          account information has been wiped from this browser, but you may
-          want to sign in and then sign back out again to resolve any issues.
+          Det oppstod et problem. Vennligst logg inn på nytt og logg deretter ut.
         </p>
       </Modal>
     );

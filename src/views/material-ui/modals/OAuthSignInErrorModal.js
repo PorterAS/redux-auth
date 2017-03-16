@@ -11,7 +11,7 @@ class OAuthSignInErrorModal extends React.Component {
         {...this.props}
         containerClass="oauth-sign-in-error-modal"
         closeAction={hideOAuthSignInErrorModal}
-        title="OAuth Sign In Error">
+        title="OAuth Problem ved innlogging">
         <p
           className="inline-error-item"
           style={{paddingLeft: "20px", position: "relative", marginBottom: "28px"}}>
@@ -22,7 +22,7 @@ class OAuthSignInErrorModal extends React.Component {
               position: "absolute",
               left: 0,
               top: 3}} />
-          There was an error authenticating your account. Please try again.
+          Feil brukernavn eller passord. Vennligst prøv igjen.
         </p>
       </Modal>
     );

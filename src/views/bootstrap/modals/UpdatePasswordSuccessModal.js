@@ -9,9 +9,9 @@ class UpdatePasswordSuccessModal extends React.Component {
         show={this.props.show}
         containerClass="update-password-success-modal"
         closeAction={hideUpdatePasswordSuccessModal}
-        title="Success">
+        title="Endring av passord">
         <p>
-          Your password has been successfully changed.
+          Ditt passord er nå endret.
         </p>
       </Modal>
     );
