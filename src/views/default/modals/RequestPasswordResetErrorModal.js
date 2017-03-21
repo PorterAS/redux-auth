@@ -9,7 +9,7 @@ class RequestPasswordResetErrorModal extends React.Component {
         show={this.props.show}
         containerClass="request-password-reset-error-modal"
         closeAction={hidePasswordResetRequestErrorModal}
-        title="Error"
+        title="Vennligst sjekk epost adresse og prøv igjen"
         errorAddr={["requestPasswordReset", "errors"]} />
     );
   }
