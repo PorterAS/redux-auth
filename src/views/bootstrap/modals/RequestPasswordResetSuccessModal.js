@@ -9,7 +9,7 @@ class RequestPasswordResetSuccessModal extends React.Component {
       <Modal
         show={this.props.show}
         containerClass="request-password-reset-success-modal"
-        title="Password Reset Request Success"
+        title="Pasordet ditt er nå endret"
         closeAction={hidePasswordResetRequestSuccessModal}>
         <p>
           {this.props.auth.getIn(["ui", "requestPasswordResetSuccessMessage"])}
