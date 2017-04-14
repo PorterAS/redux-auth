@@ -22,7 +22,7 @@ class ErrorList extends React.Component {
 
       return (
         <div className="has-error">
-          {this.props.errors.map((err, i) => {
+          {[...new Set(this.props.errors)].map((err, i) => {
             return (
               <p
                 key={i}
