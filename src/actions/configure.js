@@ -106,6 +106,9 @@ export function configure(endpoint={}, settings={}) {
 
       let {authRedirectPath, authRedirectHeaders} = getRedirectInfo(window.location);
 
+      mustResetPassword = authRedirectHeaders.reset_password ? true : false;
+      firstTimeLogin    = authRedirectHeaders.account_confirmation_success ? true : false;
+
       if (authRedirectPath) {
         dispatch(push({pathname: authRedirectPath}));
       }
