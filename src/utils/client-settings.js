@@ -33,6 +33,10 @@ const defaultSettings = {
     return root.location.href;
   },
 
+  passwordResetRedirectUrl: function() {
+    return root.location.href;
+  },
+
   confirmationSuccessUrl:  function() {
     return root.location.href;
   },
